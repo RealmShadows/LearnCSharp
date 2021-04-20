@@ -1,42 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@RealmShadows 
-dotnet
-/
-interactive
- Watch 
-46
- Star1k Fork150
-Code
-Issues
-198
-Pull requests
-7
-Discussions
-Actions
-Projects
-Wiki
-Security
-Insights
- main 
-interactive/samples/my binder/Dockerfile
-Go to file
-@colombod
-colombod notebooks sample broken (#1082)
-…
-Latest commit fa83d90 on Feb 19
- History
- 4 contributors
-@colombod@zbrkic@brettfo@TylerLeonhardt
-85 lines (64 sloc)  2.68 KB
-RawBlame
-  
 FROM jupyter/base-notebook:latest
 
 # Install .NET CLI dependencies
@@ -122,16 +83,3 @@ ENV DOTNET_INTERACTIVE_CLI_TELEMETRY_OPTOUT=false
 
 # Set root to notebooks
 WORKDIR ${HOME}/notebooks/
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
